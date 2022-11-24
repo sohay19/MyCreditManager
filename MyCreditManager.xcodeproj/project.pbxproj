@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CF42F263292F41A300DB0F8E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42F262292F41A300DB0F8E /* main.swift */; };
+		CF42F26A292F420500DB0F8E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42F269292F420500DB0F8E /* Enums.swift */; };
+		CF42F26C292F462500DB0F8E /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42F26B292F462500DB0F8E /* Score.swift */; };
+		CF42F26E292F476E00DB0F8E /* ScoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42F26D292F476E00DB0F8E /* ScoreList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CF42F25F292F41A300DB0F8E /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF42F262292F41A300DB0F8E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CF42F269292F420500DB0F8E /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CF42F26B292F462500DB0F8E /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		CF42F26D292F476E00DB0F8E /* ScoreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CF42F262292F41A300DB0F8E /* main.swift */,
+				CF42F269292F420500DB0F8E /* Enums.swift */,
+				CF42F26B292F462500DB0F8E /* Score.swift */,
+				CF42F26D292F476E00DB0F8E /* ScoreList.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF42F26A292F420500DB0F8E /* Enums.swift in Sources */,
+				CF42F26C292F462500DB0F8E /* Score.swift in Sources */,
+				CF42F26E292F476E00DB0F8E /* ScoreList.swift in Sources */,
 				CF42F263292F41A300DB0F8E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
